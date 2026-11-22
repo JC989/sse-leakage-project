@@ -1,0 +1,20 @@
+# Leading "/" anchors a pattern to the repo root, so it won't also match
+# code folders that share the name (e.g. src/sseleak/data/, tests/data/).
+
+# Environment
+/.venv/
+
+# Generated data and raw experiment output
+/data/
+/results/raw/
+
+# Python / tooling caches (unanchored on purpose: these appear at every level)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store

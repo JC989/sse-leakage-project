@@ -1,0 +1,14 @@
+# Core
+cryptography   # HKDF, HMAC tokens, AES-GCM
+numpy
+scipy          # linear_sum_assignment for the matching attack
+pandas         # experiment result tables
+matplotlib     # privacy vs. overhead plots
+faker          # fake record fields
+typer          # CLI demo
+
+# Dev
+pytest
+pytest-cov
+hypothesis
+ruff
